@@ -7,6 +7,8 @@ main:
     ldi r21, 0b10000000 ; Set PB7 as output
     out 0x04, r21       ; set DDRB7
     ldi r22, 0b10000000 ; used for inversion via eor
+
+    ; 0x1E8480 = 2.000.000
 	ldi r16, 0x80
     ldi r17, 0x84
     ldi r18, 0x1e
